@@ -1,0 +1,174 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @import url(http://awebfont.ir/css?id=1116);
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+  body{
+   
+  
+  }
+  .container{
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    
+   
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .header-right{
+    
+    display: flex;
+  }
+  .menu-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-right: 50px;
+  }
+  .menu-item{
+padding: 10px 20px;
+color: #999;
+font-size: 19px;
+  }
+  .header-left{
+   
+    display: flex;
+  }
+  .header-left p {
+    padding: 5px 20px;
+    color: #288ed9;
+  }
+
+  .header-left .header-login{
+background-color: #288ed9;
+color: #fff;
+border-radius: 30px;
+padding-bottom: 8px;
+padding-top:2px;
+  }
+.header-bottom{
+display: flex;
+align-items: center;
+}
+.header-bottom-right{
+
+flex-basis: 40%;
+}
+.header-bottom-left{
+padding-right: 20px;
+flex-basis: 60%;
+}
+.title {
+  margin: 50px 0 10px;
+  color:#288ed9 ;
+}
+.desc {
+  color: #288ed9;
+  margin-bottom: 15px;
+}
+.info {
+  line-height: 27px;
+  color: #7e7e7e;
+  text-align: justify;
+}
+.host-section{
+background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+
+}
+.host-section-title{
+text-align: center;
+padding-top: 100px;
+
+}
+.host-list{
+  display: flex;
+  padding: 100px 0;
+  
+}
+.host-item{
+
+margin: 0 10px;
+padding: 40px 15px 20px;
+border: 1px solid lightgray;
+border-radius: 15px;
+text-align: justify;
+color: #575656;
+position: relative;
+}
+.host-item-title{
+  /* height: 40px; */
+  padding: 5px 10px 10px;
+  line-height: 35px;
+position: absolute;
+width: 150px;
+background-color: #288ed9;
+border-radius: 45px;
+color: #fff;
+text-align: center;
+margin: auto;
+right: 0;
+left: 0;
+top: -20px;
+}
+.featur-right{
+width: 50%;
+
+
+}
+.featur-righ-title{
+color: #288ed9;
+margin: 0px 0 20px;
+}
+.featur-righ-desc{
+color: #7e7e7e;
+text-align: justify;
+line-height: 27px;
+}
+.info{
+
+}
+.feature-left{
+width: 50%;
+padding: 10px 20px;
+}
+.feature{
+display: flex;
+align-items: center;
+padding: 20px 50px;
+}
+.footer-section {
+  
+  /* height: 200px; */
+  padding-top: 50px;
+  text-align: center;
+  padding: 50px 0;
+  color: #999;
+}
+.socials i{
+font-size: 25px;
+padding: 10px;
+
+}
